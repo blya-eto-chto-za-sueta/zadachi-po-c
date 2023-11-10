@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 
+
 int main(){
     FILE* fin = fopen("input.txt","rb");
     freopen("output.txt", "w", stdout);
