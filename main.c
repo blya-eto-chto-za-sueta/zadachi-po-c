@@ -108,7 +108,7 @@ int main() {
                 fread(&meaning, sizeof(int64_t), 1, fin);
                 countBites += 8;
 
-                printf("%d",meaning);
+                printf("%lld",meaning);
 
                 if (countBites < N) {
                     printf(",");
